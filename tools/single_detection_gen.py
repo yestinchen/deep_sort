@@ -5,6 +5,7 @@ import argparse
 import numpy as np
 import cv2
 import tensorflow as tf
+import time
 
 
 def _run_in_batches(f, data_dict, out, batch_size):
@@ -163,7 +164,7 @@ def generate_detections(encoder, mot_dir, output_dir, sequence, detection_dir=No
     min_frame_idx = frame_indices.astype(np.int).min()
     max_frame_idx = frame_indices.astype(np.int).max()
     for frame_idx in range(min_frame_idx, max_frame_idx + 1):
-        print("Frame %05d/%05d" % (frame_idx, max_frame_idx))
+        # print("Frame %05d/%05d" % (frame_idx, max_frame_idx))
         mask = frame_indices == frame_idx
         rows = detections_in[mask]
 
@@ -207,8 +208,11 @@ def parse_args():
 def main():
     args = parse_args()
     encoder = create_box_encoder(args.model, batch_size=32)
+    start = time.time()
     generate_detections(encoder, args.mot_dir, args.output_dir, args.sequence,
                         args.detection_dir)
+    end = time.time()
+    print("time: {}s".format(end-start))
 
 
 if __name__ == "__main__":
