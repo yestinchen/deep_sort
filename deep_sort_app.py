@@ -12,6 +12,7 @@ from application_util import visualization
 from deep_sort import nn_matching
 from deep_sort.detection import Detection
 from deep_sort.tracker import Tracker
+import time
 
 
 def gather_sequence_info(sequence_dir, detection_file):
@@ -164,7 +165,7 @@ def run(sequence_dir, detection_file, output_file, min_confidence,
     results = []
 
     def frame_callback(vis, frame_idx):
-        print("Processing frame %05d" % frame_idx)
+        # print("Processing frame %05d" % frame_idx)
 
         # Load image and generate detections.
         detections = create_detections(
@@ -257,7 +258,10 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
+    start = time.time()
     run(
         args.sequence_dir, args.detection_file, args.output_file,
         args.min_confidence, args.nms_max_overlap, args.min_detection_height,
         args.max_cosine_distance, args.nn_budget, args.display)
+    end = time.time()
+    print('{}s'.format(end-start))

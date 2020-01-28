@@ -12,3 +12,7 @@
 # 60.24940204620361s
 # python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MOT16-04
 # 174.65903186798096s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=stmarc
+#  106.35894894599915s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=sherbrooke
+# 329.10113883018494s
