@@ -16,3 +16,24 @@
 #  106.35894894599915s
 # python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=sherbrooke
 # 329.10113883018494s
+
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_20034
+# # 148.12524819374084s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40131
+# # 201.5949113368988s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40171
+# # 60.11623787879944s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40172
+# # 186.68218350410461s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40181
+# #  54.74266839027405s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40732
+# # 132.58133792877197s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40751
+# # 67.71391201019287s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_40871
+# # 288.55966544151306s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_63544
+# 62.43069410324097s
+python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_63553
+# 44.82737112045288s
