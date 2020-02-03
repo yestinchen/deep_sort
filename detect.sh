@@ -35,5 +35,15 @@
 # # 288.55966544151306s
 # python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_63544
 # 62.43069410324097s
-python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_63553
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=MVI_63553
 # 44.82737112045288s
+# python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=visualroad1xt2
+# 21.797520637512207s
+python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=visualroad2xt2
+# 38.258371353149414s
+python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=visualroad3xt2
+# 25.949731826782227s
+python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=visualroad4xt2
+# 61.35006070137024s
+python tools/single_detection_gen.py --mot_dir=/media/ytchen/hdd/working/beindex --sequence=visualroad5xt2
+# 40.49268984794617s

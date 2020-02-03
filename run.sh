@@ -166,11 +166,59 @@
 # 6.205348968505859s
 
 
+# python deep_sort_app.py \
+#     --sequence_dir=/media/ytchen/hdd/working/beindex/MVI_63553 \
+#     --detection_file=./detections/MVI_63553.npy \
+#     --output_file=./results/MVI_63553.txt \
+#     --min_confidence=0.6 \
+#     --nn_budget=100 \
+#     --display=False
+# 6.165093898773193s
+
+# python deep_sort_app.py \
+#     --sequence_dir=/media/ytchen/hdd/working/beindex/visualroad1xt2 \
+#     --detection_file=./detections/visualroad1xt2.npy \
+#     --output_file=./results/visualroad1xt2.txt \
+#     --min_confidence=0.6 \
+#     --nn_budget=100 \
+#     --display=False
+# 1.3893253803253174s
+
+
+# python deep_sort_app.py \
+#     --sequence_dir=/media/ytchen/hdd/working/beindex/visualroad2xt2 \
+#     --detection_file=./detections/visualroad2xt2.npy \
+#     --output_file=./results/visualroad2xt2.txt \
+#     --min_confidence=0.6 \
+#     --nn_budget=100 \
+#     --display=False
+# 2.682241678237915s
+
+
+# python deep_sort_app.py \
+#     --sequence_dir=/media/ytchen/hdd/working/beindex/visualroad3xt2 \
+#     --detection_file=./detections/visualroad3xt2.npy \
+#     --output_file=./results/visualroad3xt2.txt \
+#     --min_confidence=0.6 \
+#     --nn_budget=100 \
+#     --display=False
+# 1.88395357131958s
+
+
+# python deep_sort_app.py \
+#     --sequence_dir=/media/ytchen/hdd/working/beindex/visualroad4xt2 \
+#     --detection_file=./detections/visualroad4xt2.npy \
+#     --output_file=./results/visualroad4xt2.txt \
+#     --min_confidence=0.6 \
+#     --nn_budget=100 \
+#     --display=False
+# 5.1467132568359375s
+
 python deep_sort_app.py \
-    --sequence_dir=/media/ytchen/hdd/working/beindex/MVI_63553 \
-    --detection_file=./detections/MVI_63553.npy \
-    --output_file=./results/MVI_63553.txt \
+    --sequence_dir=/media/ytchen/hdd/working/beindex/visualroad5xt2 \
+    --detection_file=./detections/visualroad5xt2.npy \
+    --output_file=./results/visualroad5xt2.txt \
     --min_confidence=0.6 \
     --nn_budget=100 \
-    --display=False
-# 6.165093898773193s
+    --display=True
+# 3.5348703861236572s
